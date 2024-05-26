@@ -1,0 +1,5 @@
+supriya@supriya-VirtualBox: $ arecord -f cd -D hw:0,0 -d 10 /media/sf_sharedfolder1/recording_audios.wav
+Recording WAVE '/media/sf_sharedfolder1/recording_audios.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
+^CAborted by signal Interrupt
+supriya@supriya-VirtualBox: $ aplay /media/sf_sharedfolder1/recording_audios.wav
+Playing WAVE '/media/sf_sharedfolder1/recording_audios.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stereo
